@@ -3,7 +3,7 @@ cask "tforganize" do
   name "tforganize"
   desc "A CLI tool to sort and organize Terraform files"
   homepage "https://github.com/dthagard/tforganize"
-  version "2.0.0"
+  version "2.1.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "tforganize" do
   on_macos do
     on_intel do
       url "https://github.com/dthagard/tforganize/releases/download/v#{version}/tforganize_#{version}_darwin_amd64.tar.gz"
-      sha256 "9fc471df67192c63424da23d5f45a503d4c2ce20596cd681085cd273ca0ed10c"
+      sha256 "85918c7df90bc37ff65af4a7e853b7b618f23197a06b0a83fe7dcf5f9ac01622"
     end
     on_arm do
       url "https://github.com/dthagard/tforganize/releases/download/v#{version}/tforganize_#{version}_darwin_arm64.tar.gz"
-      sha256 "d6594a73bf959471680ae9b7d026c0204abbb5157771b42b785eb59a006ce339"
+      sha256 "11591ba9db8b8aa84d293ca224d4d84f13c4fb79869a1ad86b9f647d0ce58c28"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/dthagard/tforganize/releases/download/v#{version}/tforganize_#{version}_linux_amd64.tar.gz"
-      sha256 "602f7466987d88f00762259981ac56d83b37d97413916e531b86b4d7176d4fe3"
+      sha256 "4441a55c6347150b55febddef94edc55d836af287b11abd35554325fe90c9e64"
     end
     on_arm do
       url "https://github.com/dthagard/tforganize/releases/download/v#{version}/tforganize_#{version}_linux_arm64.tar.gz"
-      sha256 "98004043ec67e5b14e32d0d3b4750c034f050e20c6f0fed961748296db1fffe5"
+      sha256 "1b488383d88e9e2b54bed697845fa59db72e96a85f06c649a2dcfcd47f6de8ac"
     end
   end
 
